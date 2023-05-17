@@ -1,0 +1,23 @@
+*{
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* p{
+    display: inline;
+} */
+ul{
+    text-align: end;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+li{
+    display: inline;
+    padding: 30px;
+}
+li:hover{
+    color: lightseagreen;
+    cursor: pointer;
+}
