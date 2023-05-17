@@ -1,0 +1,14 @@
+body{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: green;
+    background-color: lightblue;
+}
+article{
+    background-color: lightslategray;
+    color: white;
+    padding: 40px;
+    margin: 100px;
+    border-radius: 10px;
+}
