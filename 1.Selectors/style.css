@@ -1,0 +1,19 @@
+/* Universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    font-family: sans-serif;
+}
+/* id selector , grouping selector */
+#first,#second{
+    color: red;
+}
+/* class selector */
+.purple{
+    color: purple !important;
+}
+/* nested selector */
+#first>p{
+    color: green;
+}
