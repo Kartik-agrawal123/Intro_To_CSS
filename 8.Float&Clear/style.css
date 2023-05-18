@@ -1,0 +1,19 @@
+.container{
+    /* width: 400px;
+    height: 400px; */
+    border: 2px solid black;
+    /* overflow: auto;
+    text-align: center; */
+}
+.p1{
+    clear: left;
+}
+.img1{
+    float: left;
+}
+.img2{
+    float: right;
+}
+.p2{
+    clear: both;
+}
