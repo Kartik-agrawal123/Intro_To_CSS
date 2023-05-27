@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    /* --primary-text-color:white; */
+}
+.container{
+    padding: 40px;
+    /* --my-var:red; */
+}
+.container h1{
+    text-align: center;
+    /* background-color: var(--my-var,green); */
+    color: var(--primary-text-color);
+}
+.box{
+    padding: 20px;
+    background-color: var(--my-var);
+    border-radius: 20px;
+    margin-block: 20px;
+    background-color: grey;
+}
+.box h2{
+    margin-bottom: 20px;
+}
+@media screen and (min-width:800px) {
+    .container{
+        /* --my-var:pink; */
+    }
+    
+}
